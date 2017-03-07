@@ -1,0 +1,15 @@
+{
+  "terminal commands": {
+    "ls": "This lists the contents of the current directory",
+    "mkdir": "This makes a folder",
+    "pwd": "fill more of these out",
+    "git commands": {
+      "status": ""
+    },
+  },
+  "computer shortcuts": {
+    "command + tab": "switches between applications",
+    "command + ~": "switches between windows of the same application",
+    "command + q": "quits current application"
+  }
+}
