@@ -15,3 +15,7 @@
 }
 git add 
 git 
+rm
+git push
+git pull
+git st
