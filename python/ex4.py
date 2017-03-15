@@ -1,0 +1,5 @@
+print "There are", (50 + 50), "cars available."
+print "There are only", (35 - 5), "drivers available."
+# print "We can transport", carpool_capacity, "people today."
+# print "We have", passengers, "to carpool today."
+# print "We need to put about", average_passengers_per_car, "in each car."
