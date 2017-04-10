@@ -1,0 +1,7 @@
+print "There are 10 types of people."
+print "Those who know 'Binary' and, those who 'dont'."
+print "I said: 'there are 10 types of people'."
+print "I also said: 'those who know binary and those who don't."
+print "Isn't that joke so funny?!"
+print "This is the left side of..."
+print "A string with a right side."
