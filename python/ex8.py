@@ -7,3 +7,9 @@ print ("I had this thing.",
        "But it didn't sing.",
        "So I said goodnight."
        )
+
+formatter = "%r selenium %r %r %r"
+print formatter
+print formatter % (1, 2, 3, 4)
+print formatter % (1, 2.0, "3 three things", 4)
+print formatter % (1, 2, 3, 4)
