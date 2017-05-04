@@ -1,5 +1,5 @@
-print "How old are you?",
-age = raw_input()
+
+age = raw_input("How old are you?")
 
 print "What's your name",
 name = raw_input()
