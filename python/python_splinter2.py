@@ -11,7 +11,8 @@ with Browser("chrome") as browser:
     if browser.is_text_present("Amplify curriculum products"):
         print("Yes, the official website was found!")
     else:
-        print("No, it wasn't found... We need to improve our SEO techniques")
+        print("No, it wasn't found... Try Try Again")
+
 
     button = browser.find_link_by_text('Games')
     # Interact with elements
@@ -19,4 +20,31 @@ with Browser("chrome") as browser:
     if browser.is_text_present("Touch Press Games for Schools via Amplify"):
         print("Yes, the official website was found!")
     else:
-        print("No, it wasn't found... We need to improve our SEO techniques")
+        print("No, it wasn't found... Try Try Again")
+
+
+    button = browser.find_link_by_text('Assessment')
+    # Interact with elements
+    button.click()
+    if browser.is_text_present("Assessment"):
+        print("Yes, the official Amplify website was found!")
+    else:
+        print("No, it wasn't found... Try Try Again")
+
+
+    button = browser.find_link_by_text('Services')
+    # Interact with elements
+    button.click()
+    if browser.is_text_present("Services"):
+        print("Yes, the official Amplify website was found!")
+    else:
+        print("No, it wasn't found... Try Try Again")
+
+
+    button = browser.find_link_by_text('Blog')
+    # Interact with elements
+    button.click()
+    if browser.is_text_present("Amplify Blog"):
+        print("Yes, the official Amplify website was found!")
+    else:
+        print("No, it wasn't found... Try Try Again")
