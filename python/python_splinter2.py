@@ -31,6 +31,9 @@ with Browser("chrome") as browser:
     else:
         print("No, it wasn't found... Try Try Again")
 
+    #button = browser.find_by_text('#pop-up')
+    #button.click()
+
 
     button = browser.find_link_by_text('Services')
     # Interact with elements
@@ -48,3 +51,11 @@ with Browser("chrome") as browser:
         print("Yes, the official Amplify website was found!")
     else:
         print("No, it wasn't found... Try Try Again")
+
+    browser.back()
+
+    button = browser.find_link_by_text('Assessment')
+    button.click()
+
+
+    #browser.find_by_text('#pop-up')
